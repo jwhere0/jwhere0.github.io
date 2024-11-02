@@ -1,3 +1,46 @@
 body{
-	background-color: black;
+	margin: 0;
+	background-color: #0c1536;
+}
+#Titlebar {
+	background: rgb(156,169,223);
+	background: radial-gradient(circle, rgba(156,169,223,1) 27%, rgba(64,78,127,1) 52%, rgba(15,28,72,1) 75%, rgba(12,21,54,1) 86%);
+	width: 99.3%;
+	height: 150px;
+	margin-top: 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	border-style: solid;
+	border-color: #132154;
+	border-width: 7px;
+}
+#titletext{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#tophtext{
+	font-size: 55px;
+	font-family: Helvetica;
+	color: #0F1C48;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#bigimage{
+	background-color: #0C1536;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.itch.zone%2FaW1nLzExNjQ1ODE4LnBuZw%3D%3D%2Foriginal%2FOQ613U.png&f=1&nofb=1&ipt=7d19797a458d2fdf82b2f91c7e32f7d58e967890fccff817bc96347ce3f6ad25&ipo=images);
+	width: 70vw;
+	height: 30vh;\
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+}
+#main{
+	height: 700px;
+	background-color: #001c17;
+	margin: 0;
 }
