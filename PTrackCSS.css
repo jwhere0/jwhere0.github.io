@@ -120,15 +120,14 @@ body{
 	font-size: 21.34px;
 	margin-top: 12px;
 }
-.tooltip {
-	/*visibility: hidden;*/
-	position: absolute;
+.tooltip{
+	visibility: hidden;
+	position: relative;
 	font-weight: bold;
 	background-color: #3a3a3a;
-	opacity: 0.7;
+	opacity: 0.6;
 	color: #ffffff;
 	text-align: center;
 	padding: 7px;
 	border-radius: 6px;
-	top: 50%;
 }
