@@ -112,6 +112,36 @@ body{
 	border-width: 4px;
 	border-radius: 10px;
 }
+.switch{
+	position: absolute;
+    top: 9;
+    contain: layout;
+    height: 30px;
+    width: 120px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.switch:hover{
+	width: 123px;
+	height: 33px;
+	font-size: 22px;
+}
+#standardjr{
+	color: #a8cef0;
+	background-color: #2c74e8;
+	border-color: #075ba6;
+	left: 170;
+}
+#encorejr{
+	color: #e3afa1;
+	background-color: #d45637;
+	border-color: #c83407;
+	left: 200;
+}
 .code:hover{
 	width: 160px;
 	height: 53.35px;
